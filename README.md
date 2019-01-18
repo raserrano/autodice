@@ -1,7 +1,11 @@
 # autodice
 autodice transfer bot gamble dice 
 
+## Clone project
+`git clone https://github.com/raserrano/autodice.git`
+
 ## Installation process
+`cd autodice`
 `npm install`
 
 ## Execution
@@ -16,3 +20,5 @@ TO=target
 WIF=
 AMOUNT=0.100 STEEM
 ```
+## TODO
+- [ ] Add it to cron
