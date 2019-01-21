@@ -23,6 +23,7 @@
   "homepage": "https://github.com/raserrano/autodice#readme",
   "dependencies": {
     "dotenv": "^6.2.0",
+    "node-cron": "^2.0.3",
     "steem": "^0.7.4"
   }
 }
