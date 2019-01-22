@@ -21,6 +21,6 @@ async function doTransfer(){
   });
 }
  
-cron.schedule('*/2 * * * *', () => {
+cron.schedule(`*/${process.env.FREQ} * * * *`, () => {
   doTransfer();
 });

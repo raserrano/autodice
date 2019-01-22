@@ -14,11 +14,12 @@ autodice transfer bot gamble dice
 ## Configuration
 Create a .env file with the following settings
 ```
-ACCOUNT=youraccount
-MEMO=memo
-TO=target
-WIF=
-AMOUNT=0.100 STEEM
+ACCOUNT=account
+TOKEN=token
+LOW='under 75 '
+HIGH='over 6 '
+TO=magicdice
+WIF=wif
+AMOUNT='0.100 STEEM'
+FREQ=20
 ```
-## TODO
-- [ ] Add it to cron
