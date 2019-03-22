@@ -6,6 +6,7 @@ autodice transfer bot gamble dice
 
 ## Installation process
 `cd autodice`
+Then execute
 `npm install`
 
 ## Execution
@@ -23,3 +24,4 @@ WIF=wif
 AMOUNT='0.100 STEEM'
 FREQ=20
 ```
+Configure the file according to your needs.
