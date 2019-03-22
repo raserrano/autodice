@@ -2,9 +2,9 @@ require('dotenv').config();
 const steem = require('steem');
 const cron = require('node-cron');
 
-const when = new Date();
+const when = Math.floor(Math.random() * Math.floor(2));
 const token =  process.env.TOKEN;
-const bet = (when % 2)?process.env.HIGH:process.env.LOW;
+const bet = (when)?process.env.HIGH:process.env.LOW;
 const memo = `${bet} ${token}`
 async function doTransfer(){
   await steem.broadcast.transfer(
