@@ -4,7 +4,8 @@
   "description": "Autodice helper to transfer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,15 @@
   },
   "homepage": "https://github.com/raserrano/autodice#readme",
   "dependencies": {
-    "dotenv": "^6.2.0",
-    "node-cron": "^2.0.3",
-    "steem": "^0.7.4"
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "steem": "^0.7.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
